@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookishCSharp.ConsoleApp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookishCSharp.DataAccess", "BookishCSharp.DataAccess\BookishCSharp.DataAccess.csproj", "{FA2391F0-79E3-41BC-8CE2-3BB29F7A52BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookishCSharp.Web", "BookishCSharp.Web\BookishCSharp.Web.csproj", "{40219915-200B-47C5-B70D-4F916887B537}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FA2391F0-79E3-41BC-8CE2-3BB29F7A52BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA2391F0-79E3-41BC-8CE2-3BB29F7A52BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA2391F0-79E3-41BC-8CE2-3BB29F7A52BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40219915-200B-47C5-B70D-4F916887B537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40219915-200B-47C5-B70D-4F916887B537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40219915-200B-47C5-B70D-4F916887B537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40219915-200B-47C5-B70D-4F916887B537}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
