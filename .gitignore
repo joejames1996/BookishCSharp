@@ -261,4 +261,4 @@ __pycache__/
 *.pyc
 
 # Ignore config file with MySQL details
-./BookishCSharp.ConsoleApp/App.config
+BookishCSharp.ConsoleApp/App.config
