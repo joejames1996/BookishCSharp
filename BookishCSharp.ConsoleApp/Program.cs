@@ -10,6 +10,7 @@ namespace BookishCSharp.ConsoleApp
     {
         static void Main(string[] args)
         {
+            BookishCSharp.DataAccess.DataAccess.Main();
         }
     }
 }

@@ -260,5 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 
-# Ignore config file with MySQL details
 BookishCSharp.ConsoleApp/App.config
