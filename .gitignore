@@ -261,3 +261,6 @@ __pycache__/
 *.pyc
 
 BookishCSharp.ConsoleApp/App.config
+BookishCSharp.Web/Scripts/libs/
+BookishCSharp.Web/dist/
+BookishCSharpWebAngular/

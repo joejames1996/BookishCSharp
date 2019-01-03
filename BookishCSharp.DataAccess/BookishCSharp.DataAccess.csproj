@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="daos\BookRepository.cs" />
     <Compile Include="daos\Dao.cs" />
+    <Compile Include="daos\IBookRepository.cs" />
     <Compile Include="DataAccess.cs" />
     <Compile Include="daos\BookDao.cs" />
     <Compile Include="models\Book.cs" />

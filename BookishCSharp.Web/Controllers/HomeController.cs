@@ -26,5 +26,12 @@ namespace BookishCSharp.Web.Controllers
 
             return View();
         }
+
+        public ActionResult Books()
+        {
+            ViewBag.Message = "Books page.";
+
+            return View();
+        }
     }
 }
