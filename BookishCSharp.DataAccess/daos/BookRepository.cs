@@ -15,7 +15,7 @@ namespace BookishCSharp.DataAccess.daos
         {
             using (MySqlConnection mySqlConnection = new MySqlConnection(this.ConnectionString))
             {
-                return mySqlConnection.Query<Book>("SELECT * FROM [books]").ToList();
+                return mySqlConnection.Query<Book>("SELECT * FROM books").ToList();
             }
         }
 
@@ -24,7 +24,7 @@ namespace BookishCSharp.DataAccess.daos
             using (MySqlConnection mySqlConnection = new MySqlConnection(this.ConnectionString))
             {
                 return mySqlConnection.QuerySingle<Book>(
-                    "SELECT[id],[title],[author],[book_category_id],[created_at],[updated_at],[slug],[isbn],[subtitle],[cover_photo_url] FROM [books] WHERE id = @id",
+                    "SELECT * FROM books WHERE id = @id",
                     new {id = bookId});
             }
         }

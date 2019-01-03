@@ -18,7 +18,7 @@ namespace BookishCSharp.DataAccess
 
         public static void Main()
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+            string connectionString = ConfigurationManager.ConnectionStrings["DefaultMySQLConnection"].ConnectionString;
             DbConnection = new MySqlConnection(connectionString);
 
             foreach (Book b in new BookDao().getAllBooks())

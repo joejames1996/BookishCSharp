@@ -10,7 +10,7 @@ namespace BookishCSharp.DataAccess.daos
 {
     public abstract class Dao
     {
-        private string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+        private string connectionString = ConfigurationManager.ConnectionStrings["DefaultMySQLConnection"].ConnectionString;
 
         public string ConnectionString
         {
